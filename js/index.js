@@ -7,67 +7,74 @@ Highcharts.getJSON('js/kz-all.geo.json', function (geojson) {
     let dataAttrContainer = document.querySelector('#container');
     let dataAttr = dataAttrContainer.dataset.mapProps;
     let dataAttrObj = JSON.parse(dataAttr);
+    let citySlice = dataAttrObj.slice(-2);
 
-    for(let key in dataAttrObj) {
-        console.log(dataAttrObj[key]);
+    regionsArr.forEach(function (obl, i) {
+        let props = obl.properties;
+        obl.dataLabels = {
+            useHTML: true,
+            x: 10,
+            y: -10,
+            formatter() {
+                return `${dataAttrObj[i].regionname}<br>`
+            },
+        };
 
-        regionsArr.forEach(function (obl) {
-            let props = obl.properties;
-
+        if(dataAttrObj[i].id === 'sko') {
             obl.dataLabels = {
                 useHTML: true,
-                x: -5,
                 formatter() {
-                    return
+                    return `${dataAttrObj[i].regionname}<br>`;
                 },
-            };
+                y: -30,
+                x: -10
+            }
+        } else if (dataAttrObj[i].id === 'akm') {
+            obl.dataLabels = {
+                useHTML: true,
+                formatter() {
+                    return `${dataAttrObj[i].regionname}<br>`;
+                },
+                y: -25,
+                x: 15
+            }
+        } else if (dataAttrObj[i].id === 'kyz') {
+            obl.dataLabels = {
+                useHTML: true,
+                formatter() {
+                    return `${dataAttrObj[i].regionname}<br>`;
+                },
+                y: -10,
+                x: -5
+            }
+        } else if (dataAttrObj[i].id === 'tur') {
+            obl.dataLabels = {
+                useHTML: true,
+                formatter() {
+                    return `${dataAttrObj[i].regionname}<br>`;
+                },
+                y: -40,
+                x: -5
+            }
+        } else if (dataAttrObj[i].id === 'kos') {
+            obl.dataLabels = {
+                useHTML: true,
+                formatter() {
+                    return `${dataAttrObj[i].regionname}<br>`;
+                },
+                y: -40,
+                x: -5
+            }
+        }
+    });
 
-            /*if(obl.properties.id === 'sko') {
-                obl.dataLabels = {
-                    useHTML: true,
-                    formatter() {
-                        return `${obl.properties.regionname}<br>`;
-                    },
-                    y: -20,
-                    x: 25
-                }
-            } else if (obl.properties.id === 'akm') {
-                obl.dataLabels = {
-                    useHTML: true,
-                    formatter() {
-                        return `${obl.properties.regionname}<br>`;
-                    },
-                    y: -15,
-                    x: 15
-                }
-            } else if (obl.properties.id === 'kyz') {
-                obl.dataLabels = {
-                    useHTML: true,
-                    formatter() {
-                        return `${obl.properties.regionname}<br>`;
-                    },
-                    y: -10,
-                    x: -5
-                }
-            } else if (obl.properties.id === 'tur') {
-                obl.dataLabels = {
-                    useHTML: true,
-                    formatter() {
-                        return `${obl.properties.regionname}<br>`;
-                    },
-                    y: -40,
-                    x: -5
-                }
-            }*/
-        });
-    };
 
+    cities.forEach(function (city, i) {
 
-    cities.forEach(function (city) {
         city.dataLabels = {
             useHTML: true,
             formatter() {
-                return `${city.properties.regionname}<br>`;
+                return `${citySlice[i].regionname}<br>`;
             }
         };
     });
