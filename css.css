@@ -22,12 +22,18 @@ body {
     font-weight: 600;
 }
 
-.regions-name span img {
-    width: 50px;
+.regions-name .data-img-wrap, .city-name .data-img-wrap {
+    display: flex;
+    justify-content: center;
+    padding-top: 3px;
 }
 
-.city-name span img {
-    width: 30px;
+.regions-name .data-img {
+    width: 16px;
+}
+
+.city-name .data-img {
+    width: 10px;
 }
 
 .map-container {

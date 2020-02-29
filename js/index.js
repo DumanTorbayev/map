@@ -1,83 +1,142 @@
-Highcharts.getJSON('js/kz-all.geo.json', function (geojson) {
+function merge(array1, array2) {
+    array1.forEach(function (item, i) {
+        let props = item['properties'];
+        let id = props['id'];
 
-    let region = Highcharts.geojson(geojson, 'map');
-    let cities = Highcharts.geojson(geojson, 'mappoint');
-    let regionsArr = region.filter(item => item.properties.id);// Удаление пустого объекта из массива
+        if(array2[id] === undefined) {
+            return;
+        }
 
-    let dataAttrContainer = document.querySelector('#container');
-    let dataAttr = dataAttrContainer.dataset.mapProps;
-    let dataAttrObj = JSON.parse(dataAttr);
-    let citySlice = dataAttrObj.slice(-2);
+        if(array2[id]['regionname'] !== undefined) {
+            array1[i]['properties']['regionname'] = array2[id]['regionname'];
+        }
 
-    regionsArr.forEach(function (obl, i) {
-        let props = obl.properties;
+        if(array2[id]['datastat'] !== undefined) {
+            array1[i]['properties']['datastat'] = array2[id]['datastat'];
+        }
+
+        if(array2[id]['dataImg'] !== undefined) {
+            array1[i]['properties']['dataImg'] = array2[id]['dataImg'];
+        }
+
+        if(array2[id]['drilldownPath'] !== undefined) {
+            array1[i]['properties']['drilldownPath'] = array2[id]['drilldownPath'];
+        }
+    });
+
+    return array1;
+}
+
+function printImages(imageObject) {
+    if (imageObject === undefined || !Array.isArray(imageObject) || imageObject.length === 0 ) {
+        return '';
+    }
+
+    let result = '';
+
+    imageObject.forEach(function (item) {
+        if(item === '') {
+            return;
+        }
+        result += `<img class="data-img" src="${item}">`;
+    });
+
+    return result;
+}
+
+function printRegions(regionsArray) {
+    regionsArray.forEach(function (obl, i) {
+        let images = printImages(obl.properties.dataImg);
+
         obl.dataLabels = {
             useHTML: true,
             x: 10,
             y: -10,
             formatter() {
-                return `${dataAttrObj[i].regionname}<br>`
+                return `${obl.properties.regionname}<br><div class="data-img-wrap">${images}</div>`;
             },
         };
 
-        if(dataAttrObj[i].id === 'sko') {
+        if(obl.properties.id === 'sko') {
             obl.dataLabels = {
                 useHTML: true,
                 formatter() {
-                    return `${dataAttrObj[i].regionname}<br>`;
+                    return `${obl.properties.regionname}<br><div class="data-img-wrap">${images}</div>`;
                 },
                 y: -30,
                 x: -10
             }
-        } else if (dataAttrObj[i].id === 'akm') {
+        } else if (obl.properties.id === 'akm') {
             obl.dataLabels = {
                 useHTML: true,
                 formatter() {
-                    return `${dataAttrObj[i].regionname}<br>`;
+                    return `${obl.properties.regionname}<br><div class="data-img-wrap">${images}</div>`;
                 },
                 y: -25,
                 x: 15
             }
-        } else if (dataAttrObj[i].id === 'kyz') {
+        } else if (obl.properties.id === 'kyz') {
             obl.dataLabels = {
                 useHTML: true,
                 formatter() {
-                    return `${dataAttrObj[i].regionname}<br>`;
+                    return `${obl.properties.regionname}<br><div class="data-img-wrap">${images}</div>`;
                 },
                 y: -10,
                 x: -5
             }
-        } else if (dataAttrObj[i].id === 'tur') {
+        } else if (obl.properties.id === 'tur') {
             obl.dataLabels = {
                 useHTML: true,
                 formatter() {
-                    return `${dataAttrObj[i].regionname}<br>`;
+                    return `${obl.properties.regionname}<br><div class="data-img-wrap">${images}</div>`;
                 },
                 y: -40,
                 x: -5
             }
-        } else if (dataAttrObj[i].id === 'kos') {
+        } else if (obl.properties.id === 'kos') {
             obl.dataLabels = {
                 useHTML: true,
                 formatter() {
-                    return `${dataAttrObj[i].regionname}<br>`;
+                    return `${obl.properties.regionname}<br><div class="data-img-wrap">${images}</div>`;
                 },
                 y: -40,
                 x: -5
             }
         }
     });
+}
 
-
-    cities.forEach(function (city, i) {
+function printCities(citiesArray) {
+    citiesArray.forEach(function (city, i) {
+        let images = printImages(city.properties.dataImg);
 
         city.dataLabels = {
             useHTML: true,
             formatter() {
-                return `${citySlice[i].regionname}<br>`;
+                return `${city.properties.regionname}<br><div class="data-img-wrap">${images}</div>`;
             }
         };
     });
+}
+
+Highcharts.getJSON('js/kz-all.geo.json', function (geojson) {
+
+    let region = Highcharts.geojson(geojson, 'map');
+    let cities = Highcharts.geojson(geojson, 'mappoint');
+    let regionsArr = region.filter(item => item.properties.id); // Удаление пустого объекта из массива
+
+    let dataAttrContainer = document.querySelector('#container');
+    let dataAttr = dataAttrContainer.dataset.mapProps;
+    let dataAttrObj = {};
+    if(dataAttr !== undefined && dataAttr !== '') {
+        dataAttrObj = JSON.parse(dataAttr);
+    }
+
+    let mergedRegionsArray = merge(regionsArr, dataAttrObj);
+    let mergedCitiesArray = merge(cities, dataAttrObj);
+
+    printRegions(mergedRegionsArray);
+    printCities(mergedCitiesArray);
 
     Highcharts.mapChart('container', {
         "chart": {
@@ -174,6 +233,5 @@ Highcharts.getJSON('js/kz-all.geo.json', function (geojson) {
             },
         }
     });
-
 });
 

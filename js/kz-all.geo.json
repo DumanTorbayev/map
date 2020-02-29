@@ -6468,10 +6468,10 @@
       "type": "Feature",
       "properties": {
         "id": "ns",
-        "latitude": 8301.3127672571791,
-        "longitude": 5640.4112706169844,
         "regionname": "",
-        "datastat": ""
+        "datastat": "",
+        "latitude": 8301.3127672571791,
+        "longitude": 5640.4112706169844
       },
       "geometry": {
         "type": "Point",
@@ -6485,10 +6485,10 @@
       "type": "Feature",
       "properties": {
         "id": "shym",
-        "latitude": 5301.8213194868658,
-        "longitude": 5041.9048564447185,
         "regionname": "",
-        "datastat": ""
+        "datastat": "",
+        "latitude": 5301.8213194868658,
+        "longitude": 5041.9048564447185
       },
       "geometry": {
         "type": "Point",
