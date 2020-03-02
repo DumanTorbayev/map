@@ -38,90 +38,21 @@ function printAreasName(areasArray) {
                 return `${item.properties.name}<br><div class="data-img-wrap">${images}</div>`;
             },
         };
-
-        if (item.properties.id === 'Sarkandskiy') {
-            item.dataLabels = {
-                useHTML: true,
-                formatter() {
-                    return `${item.properties.name}<br><div class="data-img-wrap">${images}</div>`;
-                },
-                y: -35,
-                x: -25
-            }
-        } else if (item.properties.id === 'Aksuskiy') {
-            item.dataLabels = {
-                useHTML: true,
-                formatter() {
-                    return `${item.properties.name}<br><div class="data-img-wrap">${images}</div>`;
-                },
-                y: 10,
-                x: 15
-            }
-        } else if (item.properties.id === 'Taldyqorghan') {
-            item.dataLabels = {
-                useHTML: true,
-                formatter() {
-                    return `${item.properties.name}<br><div class="data-img-wrap">${images}</div>`;
-                },
-                y: 0,
-                x: -10
-            }
-        } else if (item.properties.id === 'Kerbulakskiy') {
-            item.dataLabels = {
-                useHTML: true,
-                formatter() {
-                    return `${item.properties.name}<br><div class="data-img-wrap">${images}</div>`;
-                },
-                y: 10,
-                x: -10
-            }
-        } else if (item.properties.id === 'Alakolskiy') {
-            item.dataLabels = {
-                useHTML: true,
-                formatter() {
-                    return `${item.properties.name}<br><div class="data-img-wrap">${images}</div>`;
-                },
-                y: 15,
-                x: 65
-            }
-        } else if (item.properties.id === 'Raiymbekskiy') {
-            item.dataLabels = {
-                useHTML: true,
-                formatter() {
-                    return `${item.properties.name}<br><div class="data-img-wrap">${images}</div>`;
-                },
-                y: -5,
-                x: 55
-            }
-        } else if (item.properties.id === 'Karasayskiy') {
-            item.dataLabels = {
-                useHTML: true,
-                formatter() {
-                    return `${item.properties.name}<br><div class="data-img-wrap">${images}</div>`;
-                },
-                y: 10,
-                x: -15
-            }
-        } else if (item.properties.id === 'Iliyskiy') {
-            item.dataLabels = {
-                useHTML: true,
-                formatter() {
-                    return `${item.properties.name}<br><div class="data-img-wrap">${images}</div>`;
-                },
-                y: -20
-            }
-        } else if (item.properties.id === 'Talgarskiy') {
-            item.dataLabels = {
-                useHTML: true,
-                formatter() {
-                    return `${item.properties.name}<br><div class="data-img-wrap">${images}</div>`;
-                },
-                y: -23,
-                x: -10
-            }
-        }
         console.log(item);
     })
+}
+
+function printRuralСounties(RuralСountiesArray) {
+    RuralСountiesArray.forEach(function (city, i) {
+        let images = printImages(city.properties.dataImg);
+
+        city.dataLabels = {
+            useHTML: true,
+            formatter() {
+                return `${city.properties.regionname}<br><div class="data-img-wrap">${images}</div>`;
+            }
+        };
+    });
 }
 
 function printImages(imageObject) {
@@ -141,20 +72,7 @@ function printImages(imageObject) {
     return result;
 }
 
-function printRuralСounties(RuralСountiesArray) {
-    RuralСountiesArray.forEach(function (city, i) {
-        let images = printImages(city.properties.dataImg);
-
-        city.dataLabels = {
-            useHTML: true,
-            formatter() {
-                return `${city.properties.regionname}<br><div class="data-img-wrap">${images}</div>`;
-            }
-        };
-    });
-}
-
-Highcharts.getJSON('js/regions/alm/alm.geo.json', function (geojson) {
+Highcharts.getJSON('js/regions/akm/akm.geo.json', function (geojson) {
 
     let areas = Highcharts.geojson(geojson, 'map');
     let ruralСounties = Highcharts.geojson(geojson, 'mappoint');
@@ -256,4 +174,3 @@ Highcharts.getJSON('js/regions/alm/alm.geo.json', function (geojson) {
         }
     });
 });
-

@@ -14,7 +14,12 @@
     "properties": {
       "name": "Аксуский район",
       "id": "Aksuskiy",
-      "datastat": "0/0/0"
+      "datastat": "0/0/0",
+      "dataImg": [
+        "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+        "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+        "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
+      ]
     }
   },
   {
@@ -29,7 +34,12 @@
     "properties": {
       "name": "Алакольский район",
       "id": "Alakolskiy",
-      "datastat": ""
+      "datastat": "0/0/0",
+      "dataImg": [
+        "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+        "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+        "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
+      ]
     }
   },
   {
@@ -43,7 +53,12 @@
     "properties": {
       "name": "Алматы",
       "id": "Almaty",
-      "datastat": ""
+      "datastat": "0/0/0",
+      "dataImg": [
+        "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+        "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+        "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
+      ]
     }
   },
   {
@@ -57,7 +72,12 @@
     "properties": {
       "name": "Балхашский район",
       "id": "Balkhashskiy",
-      "datastat": ""
+      "datastat": "0/0/0",
+      "dataImg": [
+        "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+        "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+        "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
+      ]
     }
   },
   {
@@ -70,7 +90,12 @@
     },
     "properties": {
       "name": "Енбекшиказахский район",
-      "id": "Enbekshikazakhskiy"
+      "id": "Enbekshikazakhskiy",
+      "dataImg": [
+        "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+        "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+        "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
+      ]
     }
   },
   {
@@ -84,7 +109,12 @@
     "properties": {
       "name": "Илийский район",
       "id": "Iliyskiy",
-      "datastat": ""
+      "datastat": "0/0/0",
+      "dataImg": [
+        "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+        "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+        "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
+      ]
     }
   },
   {
@@ -98,7 +128,12 @@
     "properties": {
       "name": "Карасайский район",
       "id": "Karasayskiy",
-      "datastat": ""
+      "datastat": "0/0/0",
+      "dataImg": [
+        "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+        "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+        "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
+      ]
     }
   },
   {
@@ -111,7 +146,12 @@
     "properties": {
       "name": "Каратальский район",
       "id": "Karatalskiy",
-      "datastat": ""
+      "datastat": "0/0/0",
+      "dataImg": [
+        "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+        "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+        "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
+      ]
     }
   },
   {
@@ -124,7 +164,12 @@
     "properties": {
       "name": "Кербулакский район",
       "id": "Kerbulakskiy",
-      "datastat": ""
+      "datastat": "0/0/0",
+      "dataImg": [
+        "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+        "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+        "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
+      ]
     }
   },
   {
@@ -137,7 +182,12 @@
     "properties": {
       "name": "Коксуский район",
       "id": "Koksuskiy",
-      "datastat": ""
+      "datastat": "0/0/0",
+      "dataImg": [
+        "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+        "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+        "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
+      ]
     }
   },
   {
@@ -150,7 +200,12 @@
     "properties": {
       "name": "Панфиловский район",
       "id": "Panfilovskiy",
-      "datastat": ""
+      "datastat": "0/0/0",
+      "dataImg": [
+        "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+        "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+        "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
+      ]
     }
   },
   {
@@ -163,7 +218,12 @@
     "properties": {
       "name": "Райымбекский район",
       "id": "Raiymbekskiy",
-      "datastat": ""
+      "datastat": "0/0/0",
+      "dataImg": [
+        "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+        "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+        "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
+      ]
     }
   },
   {
@@ -176,7 +236,12 @@
     "properties": {
       "name": "Саркандский район",
       "id": "Sarkandskiy",
-      "datastat": ""
+      "datastat": "0/0/0",
+      "dataImg": [
+        "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+        "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+        "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
+      ]
     }
   },
   {
@@ -189,7 +254,12 @@
     "properties": {
       "name": "Талдыкорган",
       "id": "Taldyqorghan",
-      "datastat": ""
+      "datastat": "0/0/0",
+      "dataImg": [
+        "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+        "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+        "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
+      ]
     }
   },
   {
@@ -202,7 +272,12 @@
     "properties": {
       "name": "Талгарский район",
       "id": "Talgarskiy",
-      "datastat": ""
+      "datastat": "0/0/0",
+      "dataImg": [
+        "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+        "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+        "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
+      ]
     }
   },
   {
@@ -215,7 +290,12 @@
     "properties": {
       "name": "Уйгурский район",
       "id": "Uygurskiy",
-      "datastat": ""
+      "datastat": "0/0/0",
+      "dataImg": [
+        "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+        "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+        "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
+      ]
     }
   },
   {
@@ -228,7 +308,12 @@
     "properties": {
       "name": "Жамбылский район",
       "id": "Zhambylskiy",
-      "datastat": ""
+      "datastat": "0/0/0",
+      "dataImg": [
+        "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+        "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+        "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
+      ]
     }
   }
 ]

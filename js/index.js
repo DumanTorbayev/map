@@ -120,11 +120,14 @@ function printCities(citiesArray) {
 }
 
 function regionsDrilldown(regionsArray) {
-
     regionsArray.forEach(function (item) {
-        let mapKey = `map/js/regions/${item.properties.id}/${item.properties.id}.js`;
-        //http://localhost:63342/map/drill/alm.js?_ijt=i3fquhp15kkk9d7kp2lehdji8r
-        //$.getScript(`/http://localhost:63342/${mapKey}?_ijt=i3fquhp15kkk9d7kp2lehdji8r`);
+        item.drilldown = item.properties.id;
+    })
+}
+
+function citiesDrilldown(citiesArray) {
+    citiesArray.forEach(function (item) {
+        item.drilldown = item.properties.id;
     })
 }
 
@@ -133,8 +136,6 @@ Highcharts.getJSON('js/kz-all.geo.json', function (geojson) {
     let region = Highcharts.geojson(geojson, 'map');
     let cities = Highcharts.geojson(geojson, 'mappoint');
     let regionsArr = region.filter(item => item.properties.id); // Удаление пустого объекта из массива
-
-    console.log(regionsArr)
 
     let dataAttrContainer = document.querySelector('#container');
     let dataAttr = dataAttrContainer.dataset.mapProps;
@@ -148,14 +149,16 @@ Highcharts.getJSON('js/kz-all.geo.json', function (geojson) {
 
     printRegions(mergedRegionsArray);
     printCities(mergedCitiesArray);
+    regionsDrilldown(mergedRegionsArray);
+    citiesDrilldown(mergedCitiesArray);
 
 
     Highcharts.mapChart('container', {
         chart: {
-            height: '100%',
+            height: 'auto',
             events: {
                 drilldown: function (e) {
-                    console.log(this);
+                    window.location.href = `${e.point.properties.drilldownPath}`;
                 }
             }
         },
@@ -243,6 +246,13 @@ Highcharts.getJSON('js/kz-all.geo.json', function (geojson) {
             "style": {
                 "color": '#fff'
             },
+        },
+
+        drilldown: {
+            activeDataLabelStyle: {
+                color: '#ADC8FF',
+                textDecoration: 'none',
+            }
         }
     });
 });
