@@ -1,17 +1,20 @@
+/*
+TODO:
+- Check data labels after drilling. Label rank? New positions?
+*/
+
 var data = Highcharts.geojson(Highcharts.maps['countries/kz/kz-all']),
     separators = Highcharts.geojson(Highcharts.maps['countries/kz/kz-all'], 'mapline'),
-    cities = Highcharts.geojson(Highcharts.maps['countries/kz/kz-all'], 'mappoint'),
-
+    // Some responsiveness
     small = $('#container').width() < 400;
+
+console.log(data)
 
 // Set drilldown pointers
 $.each(data, function (i) {
     this.drilldown = this.properties['hc-key'];
-    this.myKey = 12;
+    this.value = i; // Non-random bogus data
 });
-
-console.log(data);
-console.log(cities);
 
 // Instantiate the map
 Highcharts.mapChart('container', {
@@ -20,7 +23,7 @@ Highcharts.mapChart('container', {
             drilldown: function (e) {
                 if (!e.seriesOptions) {
                     var chart = this,
-                        mapKey = 'js/' + e.point.drilldown + '-all',
+                        mapKey = 'countries/us/' + e.point.drilldown + '-all',
                         // Handle error, the timeout is cleared on success
                         fail = setTimeout(function () {
                             if (!Highcharts.maps[mapKey]) {
@@ -31,45 +34,23 @@ Highcharts.mapChart('container', {
                             }
                         }, 3000);
 
-                    console.log(mapKey);
-
                     // Show the spinner
                     chart.showLoading('<i class="icon-spinner icon-spin icon-3x"></i>'); // Font Awesome spinner
 
                     // Load the drilldown map
-                    $.getScript('https://code.highcharts.com/mapdata/' + mapKey + '.js', function () {
-
-                        data = Highcharts.geojson(Highcharts.maps[mapKey]);
-
-                        // Set a non-random bogus value
-                        $.each(data, function (i) {
-                            this.value = i;
-                        });
-
-                        // Hide loading and add series
+                    $.getScript('http://localhost:63342/map/drill/alm.js?_ijt=i3fquhp15kkk9d7kp2lehdji8r', function () {
                         chart.hideLoading();
                         clearTimeout(fail);
-                        chart.addSeriesAsDrilldown(e.point, {
-                            name: e.point.name,
-                            data: data,
-                            dataLabels: {
-                                enabled: true,
-                                format: '{point.name}'
-                            }
-                        });
                     });
-                }
 
-                this.setTitle(null, { text: e.point.name });
-            },
-            drillup: function () {
-                this.setTitle(null, { text: '' });
+                    this.setTitle(null, { text: e.point.name });
+                }
             }
         }
     },
 
     title: {
-        text: ''
+        text: 'Highcharts Map Drilldown'
     },
 
     subtitle: {
@@ -82,18 +63,20 @@ Highcharts.mapChart('container', {
         }
     },
 
-    legend: {
-        enabled: false
+    legend: small ? {} : {
+        layout: 'vertical',
+        align: 'right',
+        verticalAlign: 'middle'
     },
 
     colorAxis: {
         min: 0,
-        minColor: '#172747',
-        maxColor: '#172747'
+        minColor: '#E6E7E8',
+        maxColor: '#005645'
     },
 
     mapNavigation: {
-        enabled: false,
+        enabled: true,
         buttonOptions: {
             verticalAlign: 'bottom'
         }
@@ -103,7 +86,7 @@ Highcharts.mapChart('container', {
         map: {
             states: {
                 hover: {
-                    color: '#03A9F4'
+                    color: '#EEDD66'
                 }
             }
         }
@@ -111,23 +94,14 @@ Highcharts.mapChart('container', {
 
     series: [{
         data: data,
-        name: 'Казахстан',
-        color: 'rgb(23,39,71)',
+        name: 'USA',
         dataLabels: {
             enabled: true,
-            useHTML: true,
-            allowOverlap: true,
-            formatter() {
-                if (1) {
-                    return '<img src="https://www.highcharts.com/samples/graphics/sun.png"/>'
-                } else {
-                    return '<img src="https://www.highcharts.com/samples/graphics/snow.png"/>'
-                }
-            },
-        },
+            format: '{point.properties.postal-code}'
+        }
     }, {
-        type: 'mappoint',
-        data: cities,
+        type: 'mapline',
+        data: separators,
         color: 'silver',
         enableMouseTracking: false,
         animation: {
@@ -137,7 +111,7 @@ Highcharts.mapChart('container', {
 
     drilldown: {
         activeDataLabelStyle: {
-            color: 'red',
+            color: '#FFFFFF',
             textDecoration: 'none',
             textOutline: '1px #000000'
         },
@@ -145,13 +119,8 @@ Highcharts.mapChart('container', {
             relativeTo: 'spacingBox',
             position: {
                 x: 0,
-                y: 50
+                y: 60
             }
         }
-    },
-
-    tooltip: {
-        enabled: true,
-        outside: true,
     }
 });

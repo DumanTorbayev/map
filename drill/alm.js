@@ -9,7 +9,7 @@ function printAreasName(areasArray) {
     })
 }
 
-Highcharts.getJSON('js/regions/alm/alm.geo.json', function (geojson) {
+Highcharts.getJSON('alm.geo.json', function (geojson) {
 
     let areas = Highcharts.geojson(geojson, 'map');
     //let ruralСounties = Highcharts.geojson(geojson, 'mappoint');

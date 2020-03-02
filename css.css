@@ -46,3 +46,8 @@ body {
 #container {
     width: 100%;
 }
+
+.map-data-stat {
+    display: block;
+    padding-top: 25px;
+}
