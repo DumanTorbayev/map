@@ -6469,9 +6469,7 @@
       "properties": {
         "id": "ns",
         "regionname": "",
-        "datastat": "",
-        "latitude": 8301.3127672571791,
-        "longitude": 5640.4112706169844
+        "datastat": ""
       },
       "geometry": {
         "type": "Point",
@@ -6486,9 +6484,7 @@
       "properties": {
         "id": "shym",
         "regionname": "",
-        "datastat": "",
-        "latitude": 5301.8213194868658,
-        "longitude": 5041.9048564447185
+        "datastat": ""
       },
       "geometry": {
         "type": "Point",

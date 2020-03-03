@@ -38,19 +38,65 @@ function printAreasName(areasArray) {
                 return `${item.properties.name}<br><div class="data-img-wrap">${images}</div>`;
             },
         };
+
+    if (item.properties.id === 'Zhylyoyskiy') {
+            item.dataLabels = {
+                useHTML: true,
+                y: 15,
+                formatter() {
+                    return `${item.properties.name}<br><div class="data-img-wrap">${images}</div>`;
+                }
+            };
+        }
     })
 }
 
 function printRuralСounties(RuralСountiesArray) {
-    RuralСountiesArray.forEach(function (city, i) {
+
+    RuralСountiesArray.forEach(function (city) {
         let images = printImages(city.properties.dataImg);
 
         city.dataLabels = {
             useHTML: true,
             formatter() {
-                return `${city.properties.regionname}<br><div class="data-img-wrap">${images}</div>`;
+                return `${city.properties.name}<br><div class="data-img-wrap">${images}</div>`;
             }
         };
+        console.log(city.properties.id)
+
+        if (city.properties.id === 'jemsk-so') {
+            city.dataLabels = {
+                useHTML: true,
+                align: 'left',
+                formatter() {
+                    return `${city.properties.name}<br><div class="data-img-wrap">${images}</div>`;
+                }
+            };
+        } else if (city.properties.id === 'kulsary') {
+            city.dataLabels = {
+                useHTML: true,
+                y: 5,
+                formatter() {
+                    return `${city.properties.name}<br><div class="data-img-wrap">${images}</div>`;
+                }
+            };
+        } else if (city.properties.id === 'jarsuatskii-so') {
+            city.dataLabels = {
+                useHTML: true,
+                align: 'left',
+                formatter() {
+                    return `${city.properties.name}<br><div class="data-img-wrap">${images}</div>`;
+                }
+            };
+        } else if (city.properties.id === 'inderborskii-so') {
+            city.dataLabels = {
+                useHTML: true,
+                align: 'left',
+                formatter() {
+                    return `${city.properties.name}<br><div class="data-img-wrap">${images}</div>`;
+                }
+            };
+        }
     });
 }
 
@@ -127,7 +173,7 @@ Highcharts.getJSON('js/regions/atr/atr.geo.json', function (geojson) {
                     "width": '90px',
                     "align": 'center',
                     "fontFamily": 'Segoe UI',
-                    "fontSize": '8px',
+                    "fontSize": '9px',
                     "fontWeight": '600',
                     "color": '#ADC8FF',
                 },
@@ -154,6 +200,7 @@ Highcharts.getJSON('js/regions/atr/atr.geo.json', function (geojson) {
                     "color": '#ADC8FF',
                     "fontSize": '9px',
                     "fontWeight": '600',
+                    textTransform: 'uppercase'
                 }
             }
         }],

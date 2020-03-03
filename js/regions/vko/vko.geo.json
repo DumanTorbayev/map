@@ -11038,6 +11038,82 @@
           "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
         ]
       }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "id": "kurchatov",
+        "name": "Курчатов",
+        "datastat": "0/0/0",
+        "dataImg": [
+          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.516218,
+          50.774070
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "id": "ridder",
+        "name": "Риддер",
+        "datastat": "0/0/0",
+        "dataImg": [
+          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.540385,
+          50.380329
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "id": "ust-kamenogorsk",
+        "name": "Усть - Каменогорск",
+        "datastat": "0/0/0",
+        "dataImg": [
+          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.607213,
+          49.970572
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "id": "semei",
+        "name": "Семей",
+        "datastat": "0/0/0",
+        "dataImg": [
+          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.249777,
+          50.460801
+        ]
+      }
     }
   ]
 }

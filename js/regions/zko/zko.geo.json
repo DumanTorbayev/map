@@ -6844,6 +6844,25 @@
           "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
         ]
       }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "id": "uralsk",
+        "name": "Уральск",
+        "datastat": "0/0/0",
+        "dataImg": [
+          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.359693,
+          51.250987
+        ]
+      }
     }
   ]
 }

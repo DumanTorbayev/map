@@ -27,6 +27,23 @@ function merge(array1, array2) {
     return array1;
 }
 
+function printImages(imageObject) {
+    if (imageObject === undefined || !Array.isArray(imageObject) || imageObject.length === 0) {
+        return '';
+    }
+
+    let result = '';
+
+    imageObject.forEach(function (item) {
+        if (item === '') {
+            return;
+        }
+        result += `<img class="data-img" src="${item}">`;
+    });
+
+    return result;
+}
+
 function printAreasName(areasArray) {
     areasArray.forEach(function (item) {
         let images = printImages(item.properties.dataImg);
@@ -48,27 +65,10 @@ function printRuralСounties(RuralСountiesArray) {
         city.dataLabels = {
             useHTML: true,
             formatter() {
-                return `${city.properties.regionname}<br><div class="data-img-wrap">${images}</div>`;
+                return `${city.properties.name}<br><div class="data-img-wrap">${images}</div>`;
             }
         };
     });
-}
-
-function printImages(imageObject) {
-    if (imageObject === undefined || !Array.isArray(imageObject) || imageObject.length === 0) {
-        return '';
-    }
-
-    let result = '';
-
-    imageObject.forEach(function (item) {
-        if (item === '') {
-            return;
-        }
-        result += `<img class="data-img" src="${item}">`;
-    });
-
-    return result;
 }
 
 Highcharts.getJSON('js/regions/vko/vko.geo.json', function (geojson) {

@@ -27,6 +27,23 @@ function merge(array1, array2) {
     return array1;
 }
 
+function printImages(imageObject) {
+    if (imageObject === undefined || !Array.isArray(imageObject) || imageObject.length === 0) {
+        return '';
+    }
+
+    let result = '';
+
+    imageObject.forEach(function (item) {
+        if (item === '') {
+            return;
+        }
+        result += `<img class="data-img" src="${item}">`;
+    });
+
+    return result;
+}
+
 function printAreasName(areasArray) {
     areasArray.forEach(function (item) {
         let images = printImages(item.properties.dataImg);
@@ -55,27 +72,20 @@ function printRuralСounties(RuralСountiesArray) {
     });
 }
 
-function printImages(imageObject) {
-    if (imageObject === undefined || !Array.isArray(imageObject) || imageObject.length === 0) {
-        return '';
-    }
-
-    let result = '';
-
-    imageObject.forEach(function (item) {
-        if (item === '') {
-            return;
-        }
-        result += `<img class="data-img" src="${item}">`;
-    });
-
-    return result;
-}
-
 Highcharts.getJSON('js/regions/akm/akm.geo.json', function (geojson) {
 
     let areas = Highcharts.geojson(geojson, 'map');
     let ruralСounties = Highcharts.geojson(geojson, 'mappoint');
+
+    /*let dataAttrContainer = document.querySelector('#container');
+    let dataAttr = dataAttrContainer.dataset.mapProps;
+    let dataAttrObj = {};
+    if (dataAttr !== undefined && dataAttr !== '') {
+        dataAttrObj = JSON.parse(dataAttr);
+    }*/
+
+    //let mergedAreasArray = merge(areas, dataAttrObj);
+    //let mergedRuralСountiesArray = merge(ruralСounties, dataAttrObj);
 
     printAreasName(areas);
     printRuralСounties(ruralСounties);

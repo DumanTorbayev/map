@@ -6950,6 +6950,25 @@
           "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
         ]
       }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "id": "petropavlovsk",
+        "name": "Петропавловск",
+        "datastat": "0/0/0",
+        "dataImg": [
+          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          69.147401,
+          54.909809
+        ]
+      }
     }
   ]
 }

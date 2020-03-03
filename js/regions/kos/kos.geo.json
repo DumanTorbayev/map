@@ -8522,6 +8522,82 @@
           "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
         ]
       }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "id": "qostanai",
+        "name": "Костанай",
+        "datastat": "0/0/0",
+        "dataImg": [
+          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.610513,
+          53.216308
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "id": "rudnyi",
+        "name": "Рудный",
+        "datastat": "0/0/0",
+        "dataImg": [
+          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.114701,
+          52.981234
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "id": "arkalyk",
+        "name": "Аркалык",
+        "datastat": "0/0/0",
+        "dataImg": [
+          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          66.903141,
+          50.272878
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "id": "lisakovsk",
+        "name": "Лисаковск",
+        "datastat": "0/0/0",
+        "dataImg": [
+          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          62.475813,
+          52.563583
+        ]
+      }
     }
   ]
 }

@@ -7184,6 +7184,367 @@
           "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
         ]
       }
+    },{
+      "type": "Feature",
+      "properties": {
+        "id": "kulsary",
+        "name": "Кульсары",
+        "datastat": "0/0/0",
+        "dataImg": [
+          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.001180,
+          46.938289
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "id": "jemsk-so",
+        "name": "Жемский сельский округ",
+        "datastat": "0/0/0",
+        "dataImg": [
+          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.853308,
+          47.013026
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "id": "karaarninskii-so",
+        "name": "Караарнинский сельский округ",
+        "datastat": "0/0/0",
+        "dataImg": [
+          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.922811,
+          47.145378
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "id": "akkiztogaiskii-so",
+        "name": "Аккизтогайский сельский округ",
+        "datastat": "0/0/0",
+        "dataImg": [
+          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.392603,
+          47.107746
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "id": "jana-karaton",
+        "name": "Жана Каратонский сельский округ",
+        "datastat": "0/0/0",
+        "dataImg": [
+          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.856325,
+          46.919916
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "id": "koschagylskii-so",
+        "name": "Косчагилский сельский округ",
+        "datastat": "0/0/0",
+        "dataImg": [
+          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.805762,
+          46.827585
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "id": "koktogaiskii-so",
+        "name": "Коктогайский сельский округ",
+        "datastat": "0/0/0",
+        "dataImg": [
+          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.527792,
+          48.133777
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "id": "orlikovskii-so",
+        "name": "Орликовский сельский округ",
+        "datastat": "0/0/0",
+        "dataImg": [
+          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.523875,
+          48.275816
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "id": "jarsuatskii-so",
+        "name": "Жарсуатский сельский округ",
+        "datastat": "0/0/0",
+        "dataImg": [
+          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.605869,
+          48.266171
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "id": "inderborskii-so",
+        "name": "Индерборский сельский округ",
+        "datastat": "0/0/0",
+        "dataImg": [
+          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.768971,
+          48.575766
+        ]
+      }
+    },{
+      "type": "Feature",
+      "properties": {
+        "id": "elataiskii-so",
+        "name": "Елтайский сельский округ",
+        "datastat": "0/0/0",
+        "dataImg": [
+          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.618189,
+          48.554823
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "id": "esbolskii-so",
+        "name": "Есболский сельский округ",
+        "datastat": "0/0/0",
+        "dataImg": [
+          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.647994,
+          47.630332
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "id": "akkystauskii-so",
+        "name": "Аккыстауский сельский округ",
+        "datastat": "0/0/0",
+        "dataImg": [
+          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.997757,
+          47.220644
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "id": "janbaiskii-so",
+        "name": "Жанбайский сельский округ",
+        "datastat": "0/0/0",
+        "dataImg": [
+          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.792194,
+          47.029947
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "id": "zaburynskii-so",
+        "name": "Забурынский сельский округ",
+        "datastat": "0/0/0",
+        "dataImg": [
+          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.290228,
+          47.700676
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "id": "kamyskalinskii-so",
+        "name": "Камыскалинский сельский округ",
+        "datastat": "0/0/0",
+        "dataImg": [
+          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.200873,
+          47.354226
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "id": "narynskii-so",
+        "name": "Нарынский сельский округ",
+        "datastat": "0/0/0",
+        "dataImg": [
+          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.764688,
+          47.497645
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "id": "tushykudukskii-so",
+        "name": "Тущыкудыкский сельский округ",
+        "datastat": "0/0/0",
+        "dataImg": [
+          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.077502,
+          47.255592
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "id": "tushykudukskii-so",
+        "name": "Тущыкудыкский сельский округ",
+        "datastat": "0/0/0",
+        "dataImg": [
+          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
+          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.077502,
+          47.255592
+        ]
+      }
     }
   ]
 }

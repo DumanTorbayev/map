@@ -48,7 +48,7 @@ function printRuralСounties(RuralСountiesArray) {
         city.dataLabels = {
             useHTML: true,
             formatter() {
-                return `${city.properties.regionname}<br><div class="data-img-wrap">${images}</div>`;
+                return `${city.properties.name}<br><div class="data-img-wrap">${images}</div>`;
             }
         };
     });

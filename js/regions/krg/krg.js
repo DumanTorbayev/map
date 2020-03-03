@@ -38,6 +38,16 @@ function printAreasName(areasArray) {
                 return `${item.properties.name}<br><div class="data-img-wrap">${images}</div>`;
             },
         };
+
+        if (item.properties.id === 'Zhanaarkinskiy') {
+            item.dataLabels = {
+                useHTML: true,
+                y: 20,
+                formatter() {
+                    return `${item.properties.name}<br><div class="data-img-wrap">${images}</div>`;
+                },
+            };
+        }
     })
 }
 
@@ -48,7 +58,7 @@ function printRuralСounties(RuralСountiesArray) {
         city.dataLabels = {
             useHTML: true,
             formatter() {
-                return `${city.properties.regionname}<br><div class="data-img-wrap">${images}</div>`;
+                return `${city.properties.name}<br><div class="data-img-wrap">${images}</div>`;
             }
         };
     });
