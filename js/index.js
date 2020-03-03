@@ -166,6 +166,7 @@ Highcharts.getJSON('js/kz-all.geo.json', function (geojson) {
         title: {
             "text": ''
         },
+
         mapNavigation: {
             "enabled": true,
             "buttonOptions": {
@@ -180,7 +181,9 @@ Highcharts.getJSON('js/kz-all.geo.json', function (geojson) {
                 }
             }
         },
+
         legend: false,
+
         series: [{
             "type": 'map',
             "label": true,
@@ -202,10 +205,9 @@ Highcharts.getJSON('js/kz-all.geo.json', function (geojson) {
                 "style": {
                     "width": '90px',
                     "align": 'center',
-                    "fontFamily": 'Segoe UI',
                     "fontSize": '9px',
-                    "fontWeight": '600',
-                    "color": '#ADC8FF',
+                    "fontWeight": '700',
+                    fontFamily: 'Roboto, sans-serif'
                 },
             },
         }, {
@@ -227,16 +229,18 @@ Highcharts.getJSON('js/kz-all.geo.json', function (geojson) {
                 "verticalAlign": 'middle',
                 "padding": 10,
                 "style": {
-                    "color": '#ADC8FF',
                     "fontSize": '9px',
-                    "fontWeight": '600',
+                    "fontWeight": '700',
+                    fontFamily: 'Roboto, sans-serif'
                 }
             }
         }],
+
         tooltip: {
             formatter: function () {
                 return `${this.point.properties.regionname}<br>${this.point.properties.datastat}`;
             },
+            useHTML: true,
             "backgroundColor": 'rgba(64,64,64,0.9)',
             "borderWidth": 1,
             "borderColor": '#03A9F4',

@@ -27,9 +27,27 @@ function merge(array1, array2) {
     return array1;
 }
 
+function printImages(imageObject) {
+    if (imageObject === undefined || !Array.isArray(imageObject) || imageObject.length === 0) {
+        return '';
+    }
+
+    let result = '';
+
+    imageObject.forEach(function (item) {
+        if (item === '') {
+            return;
+        }
+        result += `<img class="data-img" src="${item}">`;
+    });
+
+    return result;
+}
+
 function printAreasName(areasArray) {
     areasArray.forEach(function (item) {
         let images = printImages(item.properties.dataImg);
+        console.log(item.properties.id);
 
         item.dataLabels = {
             useHTML: true,
@@ -39,10 +57,47 @@ function printAreasName(areasArray) {
             },
         };
 
-    if (item.properties.id === 'Zhylyoyskiy') {
+        if (item.properties.id === 'Zhylyoyskiy') {
             item.dataLabels = {
                 useHTML: true,
-                y: 15,
+                y: 60,
+                x: -120,
+                formatter() {
+                    return `${item.properties.name}<br><div class="data-img-wrap">${images}</div>`;
+                }
+            };
+        } else if (item.properties.id === 'Inderskiy') {
+            item.dataLabels = {
+                useHTML: true,
+                y: 12,
+                x: -70,
+                formatter() {
+                    return `${item.properties.name}<br><div class="data-img-wrap">${images}</div>`;
+                }
+            };
+        } else if (item.properties.id === 'Isatayskiy') {
+            item.dataLabels = {
+                useHTML: true,
+                y: 30,
+                x: -20,
+                formatter() {
+                    return `${item.properties.name}<br><div class="data-img-wrap">${images}</div>`;
+                }
+            };
+        } else if (item.properties.id === 'Makhambetskiy') {
+            item.dataLabels = {
+                useHTML: true,
+                y: -25,
+                x: 65,
+                formatter() {
+                    return `${item.properties.name}<br><div class="data-img-wrap">${images}</div>`;
+                }
+            };
+        } else if (item.properties.id === 'Kurmangazinskiy') {
+            item.dataLabels = {
+                useHTML: true,
+                y: 40,
+                x: 90,
                 formatter() {
                     return `${item.properties.name}<br><div class="data-img-wrap">${images}</div>`;
                 }
@@ -100,21 +155,16 @@ function printRuralСounties(RuralСountiesArray) {
     });
 }
 
-function printImages(imageObject) {
-    if (imageObject === undefined || !Array.isArray(imageObject) || imageObject.length === 0) {
-        return '';
-    }
+function areasDrilldown(areasArray) {
+    areasArray.forEach(function (item) {
+        item.drilldown = item.properties.id;
+    })
+}
 
-    let result = '';
-
-    imageObject.forEach(function (item) {
-        if (item === '') {
-            return;
-        }
-        result += `<img class="data-img" src="${item}">`;
-    });
-
-    return result;
+function ruralСountiesDrilldown(RuralСountiesArray) {
+    RuralСountiesArray.forEach(function (item) {
+        item.drilldown = item.properties.id;
+    })
 }
 
 Highcharts.getJSON('js/regions/atr/atr.geo.json', function (geojson) {
@@ -123,11 +173,19 @@ Highcharts.getJSON('js/regions/atr/atr.geo.json', function (geojson) {
     let ruralСounties = Highcharts.geojson(geojson, 'mappoint');
 
     printAreasName(areas);
+    areasDrilldown(areas);
     printRuralСounties(ruralСounties);
+    ruralСountiesDrilldown(ruralСounties);
+
 
     Highcharts.mapChart('container', {
         "chart": {
             "height": 'auto',
+            events: {
+                drilldown: function (e) {
+                    window.location.href = `${e.point.properties.drilldownPath}`;
+                }
+            }
         },
 
         "title": {
@@ -172,10 +230,9 @@ Highcharts.getJSON('js/regions/atr/atr.geo.json', function (geojson) {
                 "style": {
                     "width": '90px',
                     "align": 'center',
-                    "fontFamily": 'Segoe UI',
+                    fontFamily: 'Roboto, sans-serif',
                     "fontSize": '9px',
                     "fontWeight": '600',
-                    "color": '#ADC8FF',
                 },
             },
         }, {
@@ -185,7 +242,7 @@ Highcharts.getJSON('js/regions/atr/atr.geo.json', function (geojson) {
             "cursor": 'pointer',
             "data": ruralСounties,
             "color": '#03A9F4',
-            "className": 'city-name',
+            "className": 'areas-name',
             "index.js": 3,
             "marker": {
                 "radius": 4.5,
@@ -197,13 +254,13 @@ Highcharts.getJSON('js/regions/atr/atr.geo.json', function (geojson) {
                 "verticalAlign": 'middle',
                 "padding": 10,
                 "style": {
-                    "color": '#ADC8FF',
                     "fontSize": '9px',
                     "fontWeight": '600',
                     textTransform: 'uppercase'
                 }
             }
         }],
+
         "tooltip": {
             formatter: function () {
                 return `${this.point.properties.name}<br>${this.point.properties.datastat}`;
@@ -217,6 +274,13 @@ Highcharts.getJSON('js/regions/atr/atr.geo.json', function (geojson) {
             "style": {
                 "color": '#fff'
             },
+        },
+
+        drilldown: {
+            activeDataLabelStyle: {
+                color: '#ADC8FF',
+                textDecoration: 'none',
+            }
         }
     });
 });

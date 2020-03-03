@@ -154,6 +154,18 @@ function printRuralСounties(RuralСountiesArray) {
     });
 }
 
+function areasDrilldown(areasArray) {
+    areasArray.forEach(function (item) {
+        item.drilldown = item.properties.id;
+    })
+}
+
+function ruralСountiesDrilldown(RuralСountiesArray) {
+    RuralСountiesArray.forEach(function (item) {
+        item.drilldown = item.properties.id;
+    })
+}
+
 Highcharts.getJSON('js/regions/alm/alm.geo.json', function (geojson) {
 
     let areas = Highcharts.geojson(geojson, 'map');
@@ -161,10 +173,17 @@ Highcharts.getJSON('js/regions/alm/alm.geo.json', function (geojson) {
 
     printAreasName(areas);
     printRuralСounties(ruralСounties);
+    areasDrilldown(areas);
+    ruralСountiesDrilldown(ruralСounties);
 
     Highcharts.mapChart('container', {
         "chart": {
             "height": 'auto',
+            events: {
+                drilldown: function (e) {
+                    window.location.href = `${e.point.properties.drilldownPath}`;
+                }
+            }
         },
 
         "title": {
@@ -240,6 +259,7 @@ Highcharts.getJSON('js/regions/alm/alm.geo.json', function (geojson) {
                 }
             }
         }],
+
         "tooltip": {
             formatter: function () {
                 return `${this.point.properties.name}<br>${this.point.properties.datastat}`;
@@ -253,6 +273,13 @@ Highcharts.getJSON('js/regions/alm/alm.geo.json', function (geojson) {
             "style": {
                 "color": '#fff'
             },
+        },
+
+        drilldown: {
+            activeDataLabelStyle: {
+                color: '#ADC8FF',
+                textDecoration: 'none',
+            }
         }
     });
 });

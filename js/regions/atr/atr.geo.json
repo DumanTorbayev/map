@@ -7526,25 +7526,6 @@
           47.255592
         ]
       }
-    }, {
-      "type": "Feature",
-      "properties": {
-        "id": "tushykudukskii-so",
-        "name": "Тущыкудыкский сельский округ",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          51.077502,
-          47.255592
-        ]
-      }
     }
   ]
 }
