@@ -3,17 +3,16 @@
 }
 
 body {
-    background-color: #172747;
+    background-color: #f6f6f6;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: calc( 100vh - 50px);
     box-sizing: border-box;
     font-family: Roboto, sans-serif;
 }
 
 .highcharts-background {
-    fill: #172747;
+    fill: #f6f6f6;
 }
 
 .regions-name span , .city-name span {
