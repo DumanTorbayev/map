@@ -119,13 +119,13 @@ function printCities(citiesArray) {
     });
 }
 
-function regionsDrilldown(regionsArray) {
+function setRegionsDrilldown(regionsArray) {
     regionsArray.forEach(function (item) {
         item.drilldown = item.properties.id;
     })
 }
 
-function citiesDrilldown(citiesArray) {
+function setPointsDrilldown(citiesArray) {
     citiesArray.forEach(function (item) {
         item.drilldown = item.properties.id;
     })
@@ -149,8 +149,8 @@ Highcharts.getJSON('js/kz-all.geo.json', function (geojson) {
 
     printRegions(mergedRegionsArray);
     printCities(mergedCitiesArray);
-    regionsDrilldown(mergedRegionsArray);
-    citiesDrilldown(mergedCitiesArray);
+    setRegionsDrilldown(mergedRegionsArray);
+    setPointsDrilldown(mergedCitiesArray);
 
 
     Highcharts.mapChart('container', {
@@ -158,7 +158,10 @@ Highcharts.getJSON('js/kz-all.geo.json', function (geojson) {
             height: 'auto',
             events: {
                 drilldown: function (e) {
-                    window.location.href = `${e.point.properties.drilldownPath}`;
+                    if (e.point.properties.regionname !== '') {
+                        window.location.href = `${e.point.properties.drilldownPath}`;
+                    }
+
                 }
             }
         },

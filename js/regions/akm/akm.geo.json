@@ -437,14 +437,9 @@
         ]
       },
       "properties": {
-        "name": "Аккольский район",
+        "name": "",
         "id": "Akkolskiy",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "datastat": ""
       }
     },
     {
@@ -771,14 +766,9 @@
         ]
       },
       "properties": {
-        "name": "Аршалынский район",
+        "name": "",
         "id": "Arshalynskiy",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "datastat": ""
       }
     },
     {
@@ -1129,14 +1119,9 @@
         ]
       },
       "properties": {
-        "name": "Астраханский район",
+        "name": "",
         "id": "Astrakhanskiy",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "datastat": ""
       }
     },
     {
@@ -1443,14 +1428,9 @@
         ]
       },
       "properties": {
-        "name": "Атбасарский район",
+        "name": "",
         "id": "Atbasarskiy",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "datastat": ""
       }
     },
     {
@@ -1901,14 +1881,9 @@
         ]
       },
       "properties": {
-        "name": "Bulandynskiy",
+        "name": "",
         "id": "Bulandynskiy",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "datastat": ""
       }
     },
     {
@@ -2139,14 +2114,9 @@
         ]
       },
       "properties": {
-        "name": "Egindykolskiy",
+        "name": "",
         "id": "Egindykolskiy",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "datastat": ""
       }
     },
     {
@@ -2637,14 +2607,9 @@
         ]
       },
       "properties": {
-        "name": "Enbekshilderskiy",
+        "name": "",
         "id": "Enbekshilderskiy",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "datastat": ""
       }
     },
     {
@@ -3087,14 +3052,9 @@
         ]
       },
       "properties": {
-        "name": "Ereymengauskiy",
+        "name": "",
         "id": "Ereymengauskiy",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "datastat": ""
       }
     },
     {
@@ -3389,14 +3349,9 @@
         ]
       },
       "properties": {
-        "name": "Esilskiy",
+        "name": "",
         "id": "Esilskiy",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "datastat": ""
       }
     },
     {
@@ -3771,14 +3726,9 @@
         ]
       },
       "properties": {
-        "name": "Korgalzhynskiy",
+        "name": "",
         "id": "Korgalzhynskiy",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "datastat": ""
       }
     },
     {
@@ -4145,14 +4095,9 @@
         ]
       },
       "properties": {
-        "name": "Sandyktauskiy",
+        "name": "",
         "id": "Sandyktauskiy",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "datastat": ""
       }
     },
     {
@@ -4423,14 +4368,9 @@
         ]
       },
       "properties": {
-        "name": "Shortandinskiy",
+        "name": "",
         "id": "Shortandinskiy",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "datastat": ""
       }
     },
     {
@@ -4929,14 +4869,9 @@
         ]
       },
       "properties": {
-        "name": "Shuchinskiy",
+        "name": "",
         "id": "Shuchinskiy",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "datastat": ""
       }
     },
     {
@@ -5279,14 +5214,9 @@
         ]
       },
       "properties": {
-        "name": "Tselinogradskiy",
+        "name": "",
         "id": "Tselinogradskiy",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "datastat": ""
       }
     },
     {
@@ -5825,14 +5755,9 @@
         ]
       },
       "properties": {
-        "name": "Zerendinskiy",
+        "name": "",
         "id": "Zerendinskiy",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "datastat": ""
       }
     },
     {
@@ -6087,14 +6012,9 @@
         ]
       },
       "properties": {
-        "name": "Zhaksynskiy",
+        "name": "",
         "id": "Zhaksynskiy",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "datastat": ""
       }
     },
     {
@@ -6433,14 +6353,9 @@
         ]
       },
       "properties": {
-        "name": "Zharkainskiy",
+        "name": "",
         "id": "Zharkainskiy",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "datastat": ""
       }
     }
   ]

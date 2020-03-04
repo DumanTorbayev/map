@@ -1013,14 +1013,9 @@
         ]
       },
       "properties": {
-        "name": "Атырау",
+        "name": "",
         "id": "Atyrau",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "datastat": ""
       }
     },
     {
@@ -1193,14 +1188,9 @@
         ]
       },
       "properties": {
-        "name": "Индерский район",
+        "name": "",
         "id": "Inderskiy",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "datastat": ""
       }
     },
     {
@@ -1955,14 +1945,9 @@
         ]
       },
       "properties": {
-        "name": "Исатайский район",
+        "name": "",
         "id": "Isatayskiy",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "datastat": ""
       }
     },
     {
@@ -4745,14 +4730,9 @@
         ]
       },
       "properties": {
-        "name": "Курмангазинский район",
+        "name": "",
         "id": "Kurmangazinskiy",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "datastat": ""
       }
     },
     {
@@ -5053,14 +5033,9 @@
         ]
       },
       "properties": {
-        "name": "Кзылкогинский район",
+        "name": "",
         "id": "Kzylkoginskiy",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "datastat": ""
       }
     },
     {
@@ -5205,14 +5180,9 @@
         ]
       },
       "properties": {
-        "name": "Макатский район",
+        "name": "",
         "id": "Makatskiy",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "datastat": ""
       }
     },
     {
@@ -5449,14 +5419,9 @@
         ]
       },
       "properties": {
-        "name": "Махамбетский район",
+        "name": "",
         "id": "Makhambetskiy",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "datastat": ""
       }
     },
     {
@@ -7175,26 +7140,16 @@
         ]
       },
       "properties": {
-        "name": "Жылыойский район",
+        "name": "",
         "id": "Zhylyoyskiy",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "datastat": ""
       }
     },{
       "type": "Feature",
       "properties": {
         "id": "kulsary",
-        "name": "Кульсары",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "name": "",
+        "datastat": ""
       },
       "geometry": {
         "type": "Point",
@@ -7207,13 +7162,8 @@
       "type": "Feature",
       "properties": {
         "id": "jemsk-so",
-        "name": "Жемский сельский округ",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "name": "",
+        "datastat": ""
       },
       "geometry": {
         "type": "Point",
@@ -7226,13 +7176,8 @@
       "type": "Feature",
       "properties": {
         "id": "karaarninskii-so",
-        "name": "Караарнинский сельский округ",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "name": "",
+        "datastat": ""
       },
       "geometry": {
         "type": "Point",
@@ -7245,13 +7190,8 @@
       "type": "Feature",
       "properties": {
         "id": "akkiztogaiskii-so",
-        "name": "Аккизтогайский сельский округ",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "name": "",
+        "datastat": ""
       },
       "geometry": {
         "type": "Point",
@@ -7264,13 +7204,8 @@
       "type": "Feature",
       "properties": {
         "id": "jana-karaton",
-        "name": "Жана Каратонский сельский округ",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "name": "",
+        "datastat": ""
       },
       "geometry": {
         "type": "Point",
@@ -7283,13 +7218,8 @@
       "type": "Feature",
       "properties": {
         "id": "koschagylskii-so",
-        "name": "Косчагилский сельский округ",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "name": "",
+        "datastat": ""
       },
       "geometry": {
         "type": "Point",
@@ -7302,13 +7232,8 @@
       "type": "Feature",
       "properties": {
         "id": "koktogaiskii-so",
-        "name": "Коктогайский сельский округ",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "name": "",
+        "datastat": ""
       },
       "geometry": {
         "type": "Point",
@@ -7321,13 +7246,8 @@
       "type": "Feature",
       "properties": {
         "id": "orlikovskii-so",
-        "name": "Орликовский сельский округ",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "name": "",
+        "datastat": ""
       },
       "geometry": {
         "type": "Point",
@@ -7340,13 +7260,8 @@
       "type": "Feature",
       "properties": {
         "id": "jarsuatskii-so",
-        "name": "Жарсуатский сельский округ",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "name": "",
+        "datastat": ""
       },
       "geometry": {
         "type": "Point",
@@ -7359,13 +7274,8 @@
       "type": "Feature",
       "properties": {
         "id": "inderborskii-so",
-        "name": "Индерборский сельский округ",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "name": "",
+        "datastat": ""
       },
       "geometry": {
         "type": "Point",
@@ -7378,13 +7288,8 @@
       "type": "Feature",
       "properties": {
         "id": "elataiskii-so",
-        "name": "Елтайский сельский округ",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "name": "",
+        "datastat": ""
       },
       "geometry": {
         "type": "Point",
@@ -7397,13 +7302,8 @@
       "type": "Feature",
       "properties": {
         "id": "esbolskii-so",
-        "name": "Есболский сельский округ",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "name": "",
+        "datastat": ""
       },
       "geometry": {
         "type": "Point",
@@ -7416,13 +7316,8 @@
       "type": "Feature",
       "properties": {
         "id": "akkystauskii-so",
-        "name": "Аккыстауский сельский округ",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "name": "",
+        "datastat": ""
       },
       "geometry": {
         "type": "Point",
@@ -7435,13 +7330,8 @@
       "type": "Feature",
       "properties": {
         "id": "janbaiskii-so",
-        "name": "Жанбайский сельский округ",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "name": "",
+        "datastat": ""
       },
       "geometry": {
         "type": "Point",
@@ -7454,13 +7344,8 @@
       "type": "Feature",
       "properties": {
         "id": "zaburynskii-so",
-        "name": "Забурынский сельский округ",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "name": "",
+        "datastat": ""
       },
       "geometry": {
         "type": "Point",
@@ -7473,13 +7358,8 @@
       "type": "Feature",
       "properties": {
         "id": "kamyskalinskii-so",
-        "name": "Камыскалинский сельский округ",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "name": "",
+        "datastat": ""
       },
       "geometry": {
         "type": "Point",
@@ -7492,13 +7372,8 @@
       "type": "Feature",
       "properties": {
         "id": "narynskii-so",
-        "name": "Нарынский сельский округ",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "name": "",
+        "datastat": ""
       },
       "geometry": {
         "type": "Point",
@@ -7511,13 +7386,8 @@
       "type": "Feature",
       "properties": {
         "id": "tushykudukskii-so",
-        "name": "Тущыкудыкский сельский округ",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "name": "",
+        "datastat": ""
       },
       "geometry": {
         "type": "Point",

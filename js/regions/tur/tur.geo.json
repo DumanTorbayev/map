@@ -321,14 +321,9 @@
         ]
       },
       "properties": {
-        "name": "Arysskiy",
+        "name": "",
         "id": "Arysskiy",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "datastat": ""
       }
     },
     {
@@ -739,14 +734,9 @@
         ]
       },
       "properties": {
-        "name": "Baydibekskiy",
+        "name": "",
         "id": "Baydibekskiy",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "datastat": ""
       }
     },
     {
@@ -1265,14 +1255,9 @@
         ]
       },
       "properties": {
-        "name": "Chardarinskiy",
+        "name": "",
         "id": "Chardarinskiy",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "datastat": ""
       }
     },
     {
@@ -1975,14 +1960,9 @@
         ]
       },
       "properties": {
-        "name": "Kazygurtskiy",
+        "name": "",
         "id": "Kazygurtskiy",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "datastat": ""
       }
     },
     {
@@ -2217,14 +2197,9 @@
         ]
       },
       "properties": {
-        "name": "Maktaaralskiy",
+        "name": "",
         "id": "Maktaaralskiy",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "datastat": ""
       }
     },
     {
@@ -2531,14 +2506,9 @@
         ]
       },
       "properties": {
-        "name": "Ordabasynskiy",
+        "name": "",
         "id": "Ordabasynskiy",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "datastat": ""
       }
     },
     {
@@ -3077,14 +3047,9 @@
         ]
       },
       "properties": {
-        "name": "Otrarskiy",
+        "name": "",
         "id": "Otrarskiy",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "datastat": ""
       }
     },
     {
@@ -3791,14 +3756,9 @@
         ]
       },
       "properties": {
-        "name": "Saryagashskiy",
+        "name": "",
         "id": "Saryagashskiy",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "datastat": ""
       }
     },
     {
@@ -4149,14 +4109,9 @@
         ]
       },
       "properties": {
-        "name": "Sayramskiy",
+        "name": "",
         "id": "Sayramskiy",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "datastat": ""
       }
     },
     {
@@ -4281,7 +4236,7 @@
       "properties": {
         "name": "",
         "id": "Shymkent",
-        "datastat": "0/0/0",
+        "datastat": "",
         "dataImg": []
       }
     },
@@ -4521,14 +4476,9 @@
         ]
       },
       "properties": {
-        "name": "Suzakskiy",
+        "name": "",
         "id": "Suzakskiy",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "datastat": ""
       }
     },
     {
@@ -5231,14 +5181,9 @@
         ]
       },
       "properties": {
-        "name": "Tolebiyskiy",
+        "name": "",
         "id": "Tolebiyskiy",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "datastat": ""
       }
     },
     {
@@ -5605,14 +5550,9 @@
         ]
       },
       "properties": {
-        "name": "Turkestan",
+        "name": "",
         "id": "Turkestan",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "datastat": ""
       }
     },
     {
@@ -5863,14 +5803,9 @@
         ]
       },
       "properties": {
-        "name": "Tyulkubaskiy",
+        "name": "",
         "id": "Tyulkubaskiy",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "datastat": ""
       }
     }
   ]

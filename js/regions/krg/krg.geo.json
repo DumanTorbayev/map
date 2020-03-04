@@ -265,14 +265,9 @@
         ]
       },
       "properties": {
-        "name": "Абайский район",
+        "name": "",
         "id": "Abayskiy",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "datastat": ""
       }
     },
     {
@@ -955,14 +950,9 @@
         ]
       },
       "properties": {
-        "name": "Актогайский район",
+        "name": "",
         "id": "Aktogayskiy",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "datastat": ""
       }
     },
     {
@@ -1481,14 +1471,9 @@
         ]
       },
       "properties": {
-        "name": "Бухар-Жырауский район",
+        "name": "",
         "id": "Bukhar-Zhyrauskiy",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "datastat": ""
       }
     },
     {
@@ -2075,14 +2060,9 @@
         ]
       },
       "properties": {
-        "name": "Каркаралинский район",
+        "name": "",
         "id": "Karkaralinskiy",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "datastat": ""
       }
     },
     {
@@ -2689,14 +2669,9 @@
         ]
       },
       "properties": {
-        "name": "Нуринский район",
+        "name": "",
         "id": "Nurinskiy",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "datastat": ""
       }
     },
     {
@@ -3147,14 +3122,9 @@
         ]
       },
       "properties": {
-        "name": "Осакаровский район",
+        "name": "",
         "id": "Osakarovskiy",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "datastat": ""
       }
     },
     {
@@ -3633,14 +3603,9 @@
         ]
       },
       "properties": {
-        "name": "Шетский район",
+        "name": "",
         "id": "Shetskiy",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "datastat": ""
       }
     },
     {
@@ -3963,14 +3928,9 @@
         ]
       },
       "properties": {
-        "name": "Улытауский район",
+        "name": "",
         "id": "Ulytauskiy",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "datastat": ""
       }
     },
     {
@@ -4237,26 +4197,16 @@
         ]
       },
       "properties": {
-        "name": "Жанааркинский район",
+        "name": "",
         "id": "Zhanaarkinskiy",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "datastat": ""
       }
     }, {
       "type": "Feature",
       "properties": {
         "id": "balhash",
-        "name": "Балхаш",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "name": "",
+        "datastat": ""
       },
       "geometry": {
         "type": "Point",
@@ -4269,13 +4219,8 @@
       "type": "Feature",
       "properties": {
         "id": "jezkazgan",
-        "name": "Жезказган",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "name": "",
+        "datastat": ""
       },
       "geometry": {
         "type": "Point",
@@ -4288,13 +4233,8 @@
       "type": "Feature",
       "properties": {
         "id": "karajal",
-        "name": "Каражал",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "name": "",
+        "datastat": ""
       },
       "geometry": {
         "type": "Point",
@@ -4307,13 +4247,8 @@
       "type": "Feature",
       "properties": {
         "id": "karaganda",
-        "name": "Караганда",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "name": "",
+        "datastat": ""
       },
       "geometry": {
         "type": "Point",
@@ -4326,13 +4261,8 @@
       "type": "Feature",
       "properties": {
         "id": "temirtau",
-        "name": "Темиртау",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "name": "",
+        "datastat": ""
       },
       "geometry": {
         "type": "Point",
@@ -4345,13 +4275,8 @@
       "type": "Feature",
       "properties": {
         "id": "prozersk",
-        "name": "Приозерск",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "name": "",
+        "datastat": ""
       },
       "geometry": {
         "type": "Point",
@@ -4364,13 +4289,8 @@
       "type": "Feature",
       "properties": {
         "id": "saran",
-        "name": "Сарань",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "name": "",
+        "datastat": ""
       },
       "geometry": {
         "type": "Point",
@@ -4383,13 +4303,8 @@
       "type": "Feature",
       "properties": {
         "id": "satpaev",
-        "name": "Сатпаев",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "name": "",
+        "datastat": ""
       },
       "geometry": {
         "type": "Point",
@@ -4402,13 +4317,8 @@
       "type": "Feature",
       "properties": {
         "id": "shahtinsk",
-        "name": "Шахтинск",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "name": "",
+        "datastat": ""
       },
       "geometry": {
         "type": "Point",
@@ -4421,13 +4331,8 @@
       "type": "Feature",
       "properties": {
         "id": "pos-aktau",
-        "name": "поселок Актау",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "name": "",
+        "datastat": ""
       },
       "geometry": {
         "type": "Point",

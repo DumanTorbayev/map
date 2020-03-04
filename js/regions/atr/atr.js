@@ -38,7 +38,7 @@ function printImages(imageObject) {
         if (item === '') {
             return;
         }
-        result += `<img class="data-img" src="${item}">`;
+        result += `<img class="data-img" src="${item}" alt="img">`;
     });
 
     return result;
@@ -47,7 +47,6 @@ function printImages(imageObject) {
 function printAreasName(areasArray) {
     areasArray.forEach(function (item) {
         let images = printImages(item.properties.dataImg);
-        console.log(item.properties.id);
 
         item.dataLabels = {
             useHTML: true,
@@ -106,9 +105,9 @@ function printAreasName(areasArray) {
     })
 }
 
-function printRuralСounties(RuralСountiesArray) {
+function printRuralCounties(RuralCountiesArray) {
 
-    RuralСountiesArray.forEach(function (city) {
+    RuralCountiesArray.forEach(function (city) {
         let images = printImages(city.properties.dataImg);
 
         city.dataLabels = {
@@ -117,7 +116,6 @@ function printRuralСounties(RuralСountiesArray) {
                 return `${city.properties.name}<br><div class="data-img-wrap">${images}</div>`;
             }
         };
-        console.log(city.properties.id)
 
         if (city.properties.id === 'jemsk-so') {
             city.dataLabels = {
@@ -161,8 +159,8 @@ function areasDrilldown(areasArray) {
     })
 }
 
-function ruralСountiesDrilldown(RuralСountiesArray) {
-    RuralСountiesArray.forEach(function (item) {
+function ruralCountiesDrilldown(RuralCountiesArray) {
+    RuralCountiesArray.forEach(function (item) {
         item.drilldown = item.properties.id;
     })
 }
@@ -170,20 +168,32 @@ function ruralСountiesDrilldown(RuralСountiesArray) {
 Highcharts.getJSON('js/regions/atr/atr.geo.json', function (geojson) {
 
     let areas = Highcharts.geojson(geojson, 'map');
-    let ruralСounties = Highcharts.geojson(geojson, 'mappoint');
+    let ruralCounties = Highcharts.geojson(geojson, 'mappoint');
 
-    printAreasName(areas);
-    areasDrilldown(areas);
-    printRuralСounties(ruralСounties);
-    ruralСountiesDrilldown(ruralСounties);
+    let dataAttrContainer = document.querySelector('#container');
+    let dataAttr = dataAttrContainer.dataset.mapProps;
+    let dataAttrObj = {};
+    if (dataAttr !== undefined && dataAttr !== '') {
+        dataAttrObj = JSON.parse(dataAttr);
+    }
 
+    let mergedRegionsArray = merge(areas, dataAttrObj);
+    let mergedCitiesArray = merge(ruralCounties, dataAttrObj);
+
+
+    printAreasName(mergedRegionsArray);
+    printRuralCounties(mergedCitiesArray);
+    areasDrilldown(mergedRegionsArray);
+    ruralCountiesDrilldown(mergedCitiesArray);
 
     Highcharts.mapChart('container', {
         "chart": {
             "height": 'auto',
             events: {
                 drilldown: function (e) {
-                    window.location.href = `${e.point.properties.drilldownPath}`;
+                    if (e.point.properties.name !== '') {
+                        window.location.href = `${e.point.properties.drilldownPath}`;
+                    }
                 }
             }
         },
@@ -230,19 +240,20 @@ Highcharts.getJSON('js/regions/atr/atr.geo.json', function (geojson) {
                 "style": {
                     "width": '90px',
                     "align": 'center',
-                    fontFamily: 'Roboto, sans-serif',
-                    "fontSize": '9px',
+                    "fontFamily": 'Segoe UI',
+                    "fontSize": '8px',
                     "fontWeight": '600',
+                    "color": '#ADC8FF',
                 },
             },
         }, {
-            "name": 'RuralСounties',
+            "name": 'RuralCounties',
             "type": 'mappoint',
             "allAreas": false,
             "cursor": 'pointer',
-            "data": ruralСounties,
+            "data": ruralCounties,
             "color": '#03A9F4',
-            "className": 'areas-name',
+            "className": 'city-name',
             "index.js": 3,
             "marker": {
                 "radius": 4.5,
@@ -254,9 +265,9 @@ Highcharts.getJSON('js/regions/atr/atr.geo.json', function (geojson) {
                 "verticalAlign": 'middle',
                 "padding": 10,
                 "style": {
+                    "color": '#ADC8FF',
                     "fontSize": '9px',
                     "fontWeight": '600',
-                    textTransform: 'uppercase'
                 }
             }
         }],

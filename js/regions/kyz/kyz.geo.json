@@ -449,14 +449,9 @@
         ]
       },
       "properties": {
-        "name": "Aralskiy",
+        "name": "",
         "id": "Aralskiy",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "datastat": ""
       }
     },
     {
@@ -867,14 +862,9 @@
         ]
       },
       "properties": {
-        "name": "Karmakchinskiy",
+        "name": "",
         "id": "Karmakchinskiy",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "datastat": ""
       }
     },
     {
@@ -1365,14 +1355,9 @@
         ]
       },
       "properties": {
-        "name": "Kazalinskiy",
+        "name": "",
         "id": "Kazalinskiy",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "datastat": ""
       }
     },
     {
@@ -1639,14 +1624,9 @@
         ]
       },
       "properties": {
-        "name": "Qyzylorda",
+        "name": "",
         "id": "Qyzylorda",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "datastat": ""
       }
     },
     {
@@ -2077,14 +2057,9 @@
         ]
       },
       "properties": {
-        "name": "Shieliyskiy",
+        "name": "",
         "id": "Shieliyskiy",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "datastat": ""
       }
     },
     {
@@ -2623,14 +2598,9 @@
         ]
       },
       "properties": {
-        "name": "Terenozekskiy",
+        "name": "",
         "id": "Terenozekskiy",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "datastat": ""
       }
     },
     {
@@ -3057,14 +3027,9 @@
         ]
       },
       "properties": {
-        "name": "Zhalaganshskiy",
+        "name": "",
         "id": "Zhalaganshskiy",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "datastat": ""
       }
     },
     {
@@ -3363,14 +3328,9 @@
         ]
       },
       "properties": {
-        "name": "Zhanakorganskiy",
+        "name": "",
         "id": "Zhanakorganskiy",
-        "datastat": "0/0/0",
-        "dataImg": [
-          "http://localhost:63342/map/green.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/red.svg?_ijt=d277mp04sbfulu08g6qou6kdag",
-          "http://localhost:63342/map/yellow.svg?_ijt=d277mp04sbfulu08g6qou6kdag"
-        ]
+        "datastat": ""
       }
     }
   ]

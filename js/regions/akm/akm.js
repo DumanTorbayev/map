@@ -38,7 +38,7 @@ function printImages(imageObject) {
         if (item === '') {
             return;
         }
-        result += `<img class="data-img" src="${item}">`;
+        result += `<img class="data-img" src="${item}" alt="img">`;
     });
 
     return result;
@@ -55,12 +55,11 @@ function printAreasName(areasArray) {
                 return `${item.properties.name}<br><div class="data-img-wrap">${images}</div>`;
             },
         };
-        console.log(item);
     })
 }
 
-function printRuralСounties(RuralСountiesArray) {
-    RuralСountiesArray.forEach(function (city, i) {
+function printRuralCounties(RuralCountiesArray) {
+    RuralCountiesArray.forEach(function (city, i) {
         let images = printImages(city.properties.dataImg);
 
         city.dataLabels = {
@@ -72,14 +71,14 @@ function printRuralСounties(RuralСountiesArray) {
     });
 }
 
-function areasDrilldown(areasArray) {
+function setRegionsDrilldown(areasArray) {
     areasArray.forEach(function (item) {
         item.drilldown = item.properties.id;
     })
 }
 
-function ruralСountiesDrilldown(RuralСountiesArray) {
-    RuralСountiesArray.forEach(function (item) {
+function setPointsDrilldown(RuralCountiesArray) {
+    RuralCountiesArray.forEach(function (item) {
         item.drilldown = item.properties.id;
     })
 }
@@ -87,29 +86,32 @@ function ruralСountiesDrilldown(RuralСountiesArray) {
 Highcharts.getJSON('js/regions/akm/akm.geo.json', function (geojson) {
 
     let areas = Highcharts.geojson(geojson, 'map');
-    let ruralСounties = Highcharts.geojson(geojson, 'mappoint');
+    let ruralCounties = Highcharts.geojson(geojson, 'mappoint');
 
-    /*let dataAttrContainer = document.querySelector('#container');
+    let dataAttrContainer = document.querySelector('#container');
     let dataAttr = dataAttrContainer.dataset.mapProps;
     let dataAttrObj = {};
     if (dataAttr !== undefined && dataAttr !== '') {
         dataAttrObj = JSON.parse(dataAttr);
-    }*/
+    }
 
-    //let mergedAreasArray = merge(areas, dataAttrObj);
-    //let mergedRuralСountiesArray = merge(ruralСounties, dataAttrObj);
+    let mergedRegionsArray = merge(areas, dataAttrObj);
+    let mergedCitiesArray = merge(ruralCounties, dataAttrObj);
 
-    printAreasName(areas);
-    printRuralСounties(ruralСounties);
-    areasDrilldown(areas);
-    ruralСountiesDrilldown(ruralСounties);
+
+    printAreasName(mergedRegionsArray);
+    printRuralCounties(mergedCitiesArray);
+    setRegionsDrilldown(mergedRegionsArray);
+    setPointsDrilldown(mergedCitiesArray);
 
     Highcharts.mapChart('container', {
         "chart": {
             "height": 'auto',
             events: {
                 drilldown: function (e) {
-                    window.location.href = `${e.point.properties.drilldownPath}`;
+                    if (e.point.properties.name !== '') {
+                        window.location.href = `${e.point.properties.drilldownPath}`;
+                    }
                 }
             }
         },
@@ -159,14 +161,15 @@ Highcharts.getJSON('js/regions/akm/akm.geo.json', function (geojson) {
                     "fontFamily": 'Segoe UI',
                     "fontSize": '8px',
                     "fontWeight": '600',
+                    "color": '#ADC8FF',
                 },
             },
         }, {
-            "name": 'RuralСounties',
+            "name": 'RuralCounties',
             "type": 'mappoint',
             "allAreas": false,
             "cursor": 'pointer',
-            "data": ruralСounties,
+            "data": ruralCounties,
             "color": '#03A9F4',
             "className": 'city-name',
             "index.js": 3,
@@ -180,6 +183,7 @@ Highcharts.getJSON('js/regions/akm/akm.geo.json', function (geojson) {
                 "verticalAlign": 'middle',
                 "padding": 10,
                 "style": {
+                    "color": '#ADC8FF',
                     "fontSize": '9px',
                     "fontWeight": '600',
                 }
