@@ -188,7 +188,7 @@ Highcharts.getJSON('src/js/regions/atr/atr.geo.json', function (geojson) {
 
     Highcharts.mapChart('container', {
         "chart": {
-            "height": '70%',
+            "height": '40%',
             events: {
                 drilldown: function (e) {
                     if (e.point.properties.name !== '') {
@@ -202,17 +202,17 @@ Highcharts.getJSON('src/js/regions/atr/atr.geo.json', function (geojson) {
             "text": ''
         },
 
-        "mapNavigation": {
+        mapNavigation: {
             "enabled": true,
             "buttonOptions": {
                 "verticalAlign": 'bottom',
                 "align": 'right',
                 "theme": {
-                    "fill": '#172747',
-                    "stroke": '#03A9F4',
+                    "fill": '#00B0C7',
+                    "stroke": '#FEC91B',
                 },
                 "style": {
-                    "color": '#fff'
+                    "color": '#000'
                 }
             }
         },
@@ -224,13 +224,8 @@ Highcharts.getJSON('src/js/regions/atr/atr.geo.json', function (geojson) {
             "label": true,
             "cursor": 'pointer',
             "data": areas,
-            "color": '#172747',
-            "borderColor": '#03A9F4',
-            "states": {
-                "hover": {
-                    "color": '#03A9F4'
-                }
-            },
+            "color": '#00B0C7',
+            "borderColor": '#FEC91B',
             "dataLabels": {
                 "enabled": true,
                 "useHTML": true,
@@ -243,7 +238,6 @@ Highcharts.getJSON('src/js/regions/atr/atr.geo.json', function (geojson) {
                     "fontFamily": 'Segoe UI',
                     "fontSize": '8px',
                     "fontWeight": '600',
-                    "color": '#ADC8FF',
                 },
             },
         }, {
@@ -265,7 +259,6 @@ Highcharts.getJSON('src/js/regions/atr/atr.geo.json', function (geojson) {
                 "verticalAlign": 'middle',
                 "padding": 10,
                 "style": {
-                    "color": '#ADC8FF',
                     "fontSize": '9px',
                     "fontWeight": '600',
                 }
@@ -289,7 +282,7 @@ Highcharts.getJSON('src/js/regions/atr/atr.geo.json', function (geojson) {
 
         drilldown: {
             activeDataLabelStyle: {
-                color: '#ADC8FF',
+                color: '#000',
                 textDecoration: 'none',
             }
         }

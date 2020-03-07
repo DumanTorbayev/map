@@ -172,7 +172,7 @@ Highcharts.getJSON('src/js/kz-all.geo.json', function (geojson) {
 
     Highcharts.mapChart('container', {
         chart: {
-            height: '70%',
+            height: '40%',
             events: {
                 drilldown: function (e) {
                     console.log(this);
@@ -194,7 +194,7 @@ Highcharts.getJSON('src/js/kz-all.geo.json', function (geojson) {
         },
 
         mapNavigation: {
-            "enabled": true,
+            "enabled": false,
             "buttonOptions": {
                 "verticalAlign": 'bottom',
                 "align": 'right',
@@ -228,7 +228,7 @@ Highcharts.getJSON('src/js/kz-all.geo.json', function (geojson) {
                     "align": 'center',
                     "fontSize": '10px',
                     "fontWeight": '700',
-                    fontFamily: 'Roboto, sans-serif'
+                    fontFamily: 'Montserrat, sans-serif'
                 },
             },
         }, {
@@ -237,7 +237,7 @@ Highcharts.getJSON('src/js/kz-all.geo.json', function (geojson) {
             "allAreas": false,
             "cursor": 'pointer',
             "data": cities,
-            "color": '#03A9F4',
+            "color": '#00B0C7',
             "className": 'city-name',
             "index": 3,
             "marker": {
@@ -249,10 +249,11 @@ Highcharts.getJSON('src/js/kz-all.geo.json', function (geojson) {
                 "align": 'right',
                 "verticalAlign": 'middle',
                 "padding": 10,
+                x: -10,
                 "style": {
                     "fontSize": '10px',
                     "fontWeight": '700',
-                    fontFamily: 'Roboto, sans-serif'
+                    fontFamily: 'Montserrat, sans-serif'
                 }
             }
         }],

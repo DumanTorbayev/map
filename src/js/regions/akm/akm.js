@@ -106,7 +106,7 @@ Highcharts.getJSON('src/js/regions/akm/akm.geo.json', function (geojson) {
 
     Highcharts.mapChart('container', {
         "chart": {
-            "height": '70%',
+            "height": '40%',
             events: {
                 drilldown: function (e) {
                     if (e.point.properties.name !== '') {
